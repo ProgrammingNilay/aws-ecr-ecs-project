@@ -1,4 +1,4 @@
-# ECR-ECS Task
+# aws-ecr-ecs-project
 
 
 ### Live Deployement Link:
@@ -26,10 +26,9 @@
 - Steps to Build and Push Image:
 
   ```bash
-  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 468629753336.dkr.ecr.us-east-1.amazonaws.com
-  docker build -t flask-app .
-  docker tag flask-app:latest 468629753336.dkr.ecr.us-east-1.amazonaws.com/flask-app:latest
-  docker push 468629753336.dkr.ecr.us-east-1.amazonaws.com/flask-app:latest
+  aws ecr get-login-password --region eu-central-1 | docker login --username AWS --password-stdin <UserID>.dkr.ecr.eu-central-1.amazonaws.com
+  docker tag flask-app:latest <UserID>.ecr.eu-central-1.amazonaws.com/flask-app:latest
+  docker push <UserID>.dkr.ecr.eu-central-1.amazonaws.com/flask-app:latest
   ```
 
 ### <a id="step-3"></a>4. Create VPC Networking
