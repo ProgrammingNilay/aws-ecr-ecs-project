@@ -1,1 +1,0 @@
-# aws-ecr-ecs-project
