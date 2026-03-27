@@ -19,7 +19,7 @@
 ---
 
 ### <a id="step-1"></a>2. Create an Amazon ECR Repository
-![AWS ECR Repository](flask-app-repo.png)
+![AWS ECR Repository](Screenshots/flask-app-repo.png)
 
 ### <a id="step-2"></a>3. Authenticate Docker with ECR and Push the Image
 
