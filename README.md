@@ -3,7 +3,7 @@
 
 ### Live Deployement Link:
 
-- [http://test-lb-tf-<User-ID>.eu-central-1.elb.amazonaws.com/](http://test-lb-tf-<User-ID>.eu-central-1.elb.amazonaws.com/)
+- [http://test-lb-tf-User-ID.eu-central-1.elb.amazonaws.com/](http://test-lb-tf-User-ID.eu-central-1.elb.amazonaws.com/)
 ## Steps
 
 - [1. Create an Amazon ECR repository](#step-1)
