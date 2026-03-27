@@ -35,43 +35,43 @@
 ### <a id="step-3"></a>4. Create VPC Networking
 
 - Create VPC (Virtual Private Cloud)
-  ![alt text](vpc.png)
+  ![alt text](Screenshots/vpc.png)
 
 ### <a id="step-4"></a>5. Create ECS Cluster
 
 - ECS Cluster
-  ![alt text](ecs-cluster.png)
+  ![alt text](Screenshots/ecs-cluster.png)
 
 ### <a id="step-5"></a>6. Create ECS Task Definition
 
 - ECS task defination
-  ![alt text](ecs-task-defination.png)
+  ![alt text](Screenshots/ecs-task-defination.png)
 
 ### <a id="step-6"></a>7. Create Security Groups
 
 - Load Balancer SG
-  ![alt text](alb-sg.png)
+  ![alt text](Screenshots/alb-sg.png)
 
 - ECS Service SG
-  ![alt text](ecs-sg.png)
+  ![alt text](Screenshots/ecs-sg.png)
 
 ### <a id="step-7"></a>8. Create ELB and Target Group
 
 - Load Balancer
-  ![alt text](alb.png)
+  ![alt text](Screenshots/alb.png)
 - Target Group
-  ![alt text](targetgroup.png)
+  ![alt text](Screenshots/targetgroup.png)
 
 ### <a id="step-8"></a>9. Create ECS Service and Attach It to the Load Balancer
 
 - ECS Service
-  ![alt text](ecs-service.png)
+  ![alt text](Screenshots/ecs-service.png)
 - ECS Service Tasks
-  ![alt text](flask-app-task.png)
+  ![alt text](Screenshots/flask-app-task.png)
 
 ### <a id="step-9"></a>10. Verify Deployment with Test Screenshots
 
 - Test 1
-  ![alt text](tested-page.png)
+  ![alt text](Screenshots/tested-page.png)
 - Test 2
-  ![alt text](tested-page1.png)
+  ![alt text](Screenshots/tested-page1.png)
