@@ -18,10 +18,10 @@
 
 ---
 
-### <a id="step-1"></a>2. Create an Amazon ECR Repository
+### <a id="step-1"></a>1. Create an Amazon ECR Repository
 ![AWS ECR Repository](Screenshots/flask-app-repo.png)
 
-### <a id="step-2"></a>3. Authenticate Docker with ECR and Push the Image
+### <a id="step-2"></a>2. Authenticate Docker with ECR and Push the Image
 
 - Steps to Build and Push Image:
 
@@ -31,22 +31,22 @@
   docker push <UserID>.dkr.ecr.eu-central-1.amazonaws.com/flask-app:latest
   ```
 
-### <a id="step-3"></a>4. Create VPC Networking
+### <a id="step-3"></a>3. Create VPC Networking
 
 - Create VPC (Virtual Private Cloud)
   ![alt text](Screenshots/vpc.png)
 
-### <a id="step-4"></a>5. Create ECS Cluster
+### <a id="step-4"></a>4. Create ECS Cluster
 
 - ECS Cluster
   ![alt text](Screenshots/ecs-cluster.png)
 
-### <a id="step-5"></a>6. Create ECS Task Definition
+### <a id="step-5"></a>5. Create ECS Task Definition
 
 - ECS task defination
   ![alt text](Screenshots/ecs-task-defination.png)
 
-### <a id="step-6"></a>7. Create Security Groups
+### <a id="step-6"></a>6. Create Security Groups
 
 - Load Balancer SG
   ![alt text](Screenshots/alb-sg.png)
@@ -54,21 +54,21 @@
 - ECS Service SG
   ![alt text](Screenshots/ecs-sg.png)
 
-### <a id="step-7"></a>8. Create ELB and Target Group
+### <a id="step-7"></a>7. Create ELB and Target Group
 
 - Load Balancer
   ![alt text](Screenshots/alb.png)
 - Target Group
   ![alt text](Screenshots/targetgroup.png)
 
-### <a id="step-8"></a>9. Create ECS Service and Attach It to the Load Balancer
+### <a id="step-8"></a>8. Create ECS Service and Attach It to the Load Balancer
 
 - ECS Service
   ![alt text](Screenshots/ecs-service.png)
 - ECS Service Tasks
   ![alt text](Screenshots/flask-app-task.png)
 
-### <a id="step-9"></a>10. Verify Deployment with Test Screenshots
+### <a id="step-9"></a>9. Verify Deployment with Test Screenshots
 
 - Test 1
   ![alt text](Screenshots/tested-page.png)
